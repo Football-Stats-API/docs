@@ -1,5 +1,36 @@
+TEAMS
 
+team: name of the team
+team_id: id of the team
+team_country: team's country
+team_country_id: id of the team's country
+founded: year of team's foundation
+current_league_name: name of the team's current league
+current_league_id: id of the team's current league 
+current_league_country: country of the team  
+current_league_country_id: id of the team's country
 
+--------------------
+
+RESULTS
+
+match_id: id of the match 
+date: date of the match
+matchday: matchday 
+league_name: name of the league 
+league_id: id of the league 
+country: name of the country 
+country_id: id of the country 
+home_team: name of the home team 
+home_team_id: id of the home team 
+away_team: name of the away team 
+away_team_id: id of the away team 
+half_time_result: result at half time 
+goals_scored_home_team_half_time: goals scored in the first half by the home team 
+goals_scored_away_team_half_time: goals scored in the first half by the away team  
+full_time_result: final result 
+goals_scored_home_team_full_time: goals scored by the home team 
+goals_scored_away_team_full_time: goals scored by the away team 
 
 --------------------
 
@@ -176,5 +207,5 @@ team_id: id of the team
 campaign_id: id of the campaign
 league_id: id of the league
 league_name: name of the league
-country: league's country
-country_id: id of the league's country
+country: team's country
+country_id: id of the team's country
