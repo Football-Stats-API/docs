@@ -1,3 +1,10 @@
+
+
+
+--------------------
+
+STATS
+
 league: league’s code
 team: name of the team
 played: number of matches played
@@ -165,6 +172,9 @@ conceded_1: matches which the team conceded 1 goal in
 conceded_2: matches which the team conceded 2 goals in
 conceded_3: matches which the team conceded 3 goals in
 conceded_4: matches which the team conceded 4 goals in
-teams_id: id of the team
-league_id: id of the league
+team_id: id of the team
 campaign_id: id of the campaign
+league_id: id of the league
+league_name: name of the league
+country: league's country
+country_id: id of the league's country
