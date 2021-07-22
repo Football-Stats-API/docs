@@ -5,7 +5,6 @@ This is the documentation for the data accessible with the Football Stats API
 STATS
 
 league: league’s code
-
 team: name of the team
 
 played: number of matches played
