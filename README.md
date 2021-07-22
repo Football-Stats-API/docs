@@ -5,7 +5,9 @@ This is the documentation for the data accessible with the Football Stats API
 STATS
 
 league: league’s code
+
 team: name of the team
+
 played: number of matches played
 equalizing_goals_scored: team’s goals that equalized the score
 goals_giving_lead_to_the_opponent: goals that gave the lead to the opponent team
