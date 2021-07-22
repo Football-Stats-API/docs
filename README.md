@@ -4,28 +4,28 @@ This is the documentation for the data accessible with the Football Stats API
 ------------------------------
 STATS
 
-league: league’s code
-team: name of the team
+**league**: league’s code
+**team**: name of the team
 
-played: number of matches played
-equalizing_goals_scored: team’s goals that equalized the score
-goals_giving_lead_to_the_opponent: goals that gave the lead to the opponent team
-ability_to_equalize: ratio between equalizing_goals_scored and goals_giving_lead_to_the_opponent
-avg_goals_giving_lead_to_the_opponent: ratio between goals_giving_lead_to_the_opponent and number of matches played
-equalizing_goals_conceded: goals that let the opponent equalize the score
-goals_giving_lead: goals that gave the lead to the team
-opponent_ability_to_equalize: ratio between equalizing_goals_conceded and goals_giving_lead
-avg_goals_giving_lead: ratio between goals_giving_lead and number of matches played
-goals_scored: goals scored by the team
-avg_goals_scored: ratio between goals_scored and number of matches played
-goals_conceded: goals conceded by the team
-avg_goals_conceded: ratio between goals_ conceded and number of matches played
-goals_scored_1st_half: goals scored by the team in the first half of the matches
-avg_goals_scored_1st_half: ratio between goals_scored_1st_half and number of matches played
-goals_conceded_1st_half: goals conceded by the team in the first half of the matches
-avg_goals_conceded_1st_half: ratio between goals_conceded_1st_half and number of matches played
-goals_scored_2nd_half: goals scored by the team in the second half of the matches
-avg_goals_scored_2nd_half: ratio between goals_scored_2nd_half and number of matches played
+**played**: number of matches played
+**equalizing_goals_scored**: team’s goals that equalized the score
+**goals_giving_lead_to_the_opponent**: goals that gave the lead to the opponent team
+**ability_to_equalize**: ratio between equalizing_goals_scored and goals_giving_lead_to_the_opponent
+**avg_goals_giving_lead_to_the_opponent**: ratio between goals_giving_lead_to_the_opponent and number of matches played
+**equalizing_goals_conceded**: goals that let the opponent equalize the score
+**goals_giving_lead**: goals that gave the lead to the team
+**opponent_ability_to_equalize**: ratio between equalizing_goals_conceded and goals_giving_lead
+**avg_goals_giving_lead**: ratio between goals_giving_lead and number of matches played
+**goals_scored**: goals scored by the team
+**avg_goals_scored**: ratio between goals_scored and number of matches played
+**goals_conceded**: goals conceded by the team
+**avg_goals_conceded**: ratio between goals_ conceded and number of matches played
+**goals_scored_1st_half**: goals scored by the team in the first half of the matches
+**avg_goals_scored_1st_half**: ratio between goals_scored_1st_half and number of matches played
+**goals_conceded_1st_half**: goals conceded by the team in the first half of the matches
+**avg_goals_conceded_1st_half**: ratio between goals_conceded_1st_half and number of matches played
+**goals_scored_2nd_half**: goals scored by the team in the second half of the matches
+**avg_goals_scored_2nd_half**: ratio between goals_scored_2nd_half and number of matches played
 goals_conceded_2nd_half: goals conceded by the team in the second half of the matches
 avg_goals_conceded_2nd_half: ratio between goals_conceded_2nd_half and number of matches played
 wins_1st_half: number of matches where the team was leading after the 1st half
