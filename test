@@ -34,6 +34,27 @@ goals_scored_away_team_full_time: goals scored by the away team
 
 --------------------
 
+GOALS
+
+match_id: id of the match 
+date: date of the match
+matchday: matchday 
+league_name: name of the league 
+league_id: id of the league
+country: name of the country 
+country_id: id of the country 
+home_team_partial: goals made by the home team at this point of the match
+away_team_partial": goals made by the away team at this point of the match 
+scorer: name of the goals' (or own goal's) scorer
+goal_type": type of goal (goal or own goal) 
+minute: minute of the goal 
+team: name of the team that scored the goal (or benefited from the own goal)
+team_id: id of the team that scored the goal (or benefited from the own goal) 
+opposing_team: name of the team that conceded the goal (or scored the own goal)
+opposing_team_id: id of the team that conceded the goal (or scored the own goal)
+
+--------------------
+
 STATS
 
 league: league’s code
