@@ -1,3 +1,23 @@
+COUNTRIES
+country: name of the country
+country_id: id of the country
+league_name: name of the league 
+league_id: id of the league 
+
+--------------------
+
+LEAGUES
+
+league_name: name of the league 
+league_id: id of the league 
+country: name of the country
+country_id: id of the country
+campaign: if the league is played throughout a whole solar year (e.g. in 2021), then the field is the year; if the league is played in two different years (e.g. 2021/2022), then the field is the first year
+campaign_start: day of the first match of the league
+campaign_end: day of the last match of the league
+    
+--------------------
+    
 TEAMS
 
 team: name of the team
@@ -46,7 +66,7 @@ country_id: id of the country
 home_team_partial: goals made by the home team at this point of the match
 away_team_partial": goals made by the away team at this point of the match 
 scorer: name of the goals' (or own goal's) scorer
-goal_type": type of goal (goal or own goal) 
+goal_type: type of goal (goal or own goal) 
 minute: minute of the goal 
 team: name of the team that scored the goal (or benefited from the own goal)
 team_id: id of the team that scored the goal (or benefited from the own goal) 
