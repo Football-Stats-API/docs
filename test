@@ -1,3 +1,13 @@
+COUNTRIES
+
+country: name of the country
+country_id: id of the country
+league_name: name of the league 
+league_id: id of the league 
+active: campaign is already ended (value = 0) or not (1)
+
+--------------------
+
 LEAGUES
 
 league_name: name of the league 
