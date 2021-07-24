@@ -7,7 +7,7 @@ country_id: id of the country
 campaign: if the league is played throughout a whole solar year (e.g. in 2021), then the field is the year; if the league is played in two different years (e.g. 2021/2022), then the field is the first year
 campaign_start: day of the first match of the league
 campaign_end: day of the last match of the league
-active: league is already ended (value = 0) or not (1)
+active: campaign is already ended (value = 0) or not (1)
     
 --------------------
     
