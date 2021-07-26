@@ -3,37 +3,37 @@ These are the instructions (in Python) to retrieve the data.
 COUNTRIES
 
 to get all the countries - http://127.0.0.1:5000/api/v1/resources/countries/all
-to get a country's leagues - http://127.0.0.1:5000/api/v1/resources/countries?country_id=5
+to get all the leagues of a specific country (e.g. 1) - http://127.0.0.1:5000/api/v1/resources/countries?country_id=1
 
 LEAGUES
 
 to get all the leagues - http://127.0.0.1:5000/api/v1/resources/leagues/all
-to get a country's leagues - http://127.0.0.1:5000/api/v1/resources/leagues?country_id=5
+to get all the leagues of a specific country (e.g. 1) - http://127.0.0.1:5000/api/v1/resources/leagues?country_id=1
 
 TEAMS
 
 to get all the teams - http://127.0.0.1:5000/api/v1/resources/teams/all
-to get all the teams of a country - http://127.0.0.1:5000/api/v1/resources/teams?team_country_id=5
-to get all the teams of a league - http://127.0.0.1:5000/api/v1/resources/teams?current_league_id=20010
-to get one specific team - l'indirizzo http://127.0.0.1:5000/api/v1/resources/teams?team_id=159
+to get all the teams of a country (e.g. 1) - http://127.0.0.1:5000/api/v1/resources/teams?team_country_id=1
+to get all the teams of a league (e.g. 20001) - http://127.0.0.1:5000/api/v1/resources/teams?current_league_id=20001
+to get one specific team (e.g. 11) - l'indirizzo http://127.0.0.1:5000/api/v1/resources/teams?team_id=11
 
 STATS
 
-to get a campaign's stats - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020
-to get the stats of a team, for a specific campaign - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020&team_id=159
-to get the stats of all the teams of a specific league - http://127.0.0.1:5000/api/v1/resources/stats?league_id=20010
-to get the stats of all the teams of a specific country, for a specific campaign - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020&country_id=5
+to get the stats of a specific campaign (e.g. 2020) - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020
+to get the stats of a team (e.g. 11), for a specific campaign (e.g. 2020) - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020&team_id=11
+to get the stats of all the teams of a specific league (e.g. 2020) - http://127.0.0.1:5000/api/v1/resources/stats?league_id=20001
+to get the stats of all the teams of a specific country (e.g. 1), for a specific campaign (e.g. 2020) - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020&country_id=1
 
 RESULTS
 
 to get all the results of a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020
 to get the result of a match - http://127.0.0.1:5000/api/v1/resources/results?match_id=21041101550159
 to get the results of all the matches played on a specific day (ddmmyyyy) - http://127.0.0.1:5000/api/v1/resources/results?date=11042021
-to get the results of all the matches of a league - http://127.0.0.1:5000/api/v1/resources/results?league_id=20010
-to get the results of all the matches played in a specific country - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&country_id=5
-to get the results of the matches played at home by a team, in a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&home_team_id=159
-to get the results of the matches played away by a team, in a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&away_team_id=159
-to get the results of the matches played by a team, in a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&team_id=159
+to get the results of all the matches of a league - http://127.0.0.1:5000/api/v1/resources/results?league_id=20001
+to get the results of all the matches played in a specific country - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&country_id=1
+to get the results of the matches played at home by a team, in a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&home_team_id=11
+to get the results of the matches played away by a team, in a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&away_team_id=11
+to get the results of the matches played by a team, in a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&team_id=11
 
 GOALS
 
