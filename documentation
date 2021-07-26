@@ -1,42 +1,46 @@
-PYTHON
+These are the instructions (in Python) to retrieve the data.
 
 COUNTRIES
 
-to retrieve all the countries - http://127.0.0.1:5000/api/v1/resources/countries/all
-to retrieve a country's leagues - http://127.0.0.1:5000/api/v1/resources/countries?country_id=5
+to get all the countries - http://127.0.0.1:5000/api/v1/resources/countries/all
+to get a country's leagues - http://127.0.0.1:5000/api/v1/resources/countries?country_id=5
 
 LEAGUES
 
-to retrieve all the leagues - http://127.0.0.1:5000/api/v1/resources/leagues/all
-to retrieve a country's leagues - http://127.0.0.1:5000/api/v1/resources/leagues?country_id=5
+to get all the leagues - http://127.0.0.1:5000/api/v1/resources/leagues/all
+to get a country's leagues - http://127.0.0.1:5000/api/v1/resources/leagues?country_id=5
 
 TEAMS
 
-to retrieve all the teams - http://127.0.0.1:5000/api/v1/resources/teams/all
-to retrieve all the teams of a country - http://127.0.0.1:5000/api/v1/resources/teams?team_country_id=5
-to retrieve all the teams of a league - http://127.0.0.1:5000/api/v1/resources/teams?current_league_id=20010
-to retrieve one specific team - l'indirizzo http://127.0.0.1:5000/api/v1/resources/teams?team_id=159
+to get all the teams - http://127.0.0.1:5000/api/v1/resources/teams/all
+to get all the teams of a country - http://127.0.0.1:5000/api/v1/resources/teams?team_country_id=5
+to get all the teams of a league - http://127.0.0.1:5000/api/v1/resources/teams?current_league_id=20010
+to get one specific team - l'indirizzo http://127.0.0.1:5000/api/v1/resources/teams?team_id=159
 
 STATS
 
-to retrieve a campaign's stats - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020
-to retrieve the stats of a team, for a specific campaign - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020&team_id=159
-to retrieve the stats of all the teams of a specific league - http://127.0.0.1:5000/api/v1/resources/stats?league_id=20010
-to retrieve the stats of all the teams of a specific country, for a specific campaign - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020&country_id=5
+to get a campaign's stats - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020
+to get the stats of a team, for a specific campaign - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020&team_id=159
+to get the stats of all the teams of a specific league - http://127.0.0.1:5000/api/v1/resources/stats?league_id=20010
+to get the stats of all the teams of a specific country, for a specific campaign - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020&country_id=5
 
-per vedere tutti i risultati di un campionato, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020
-per vedere il risultato di una partita, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/results?match_id=21041101550159
-per vedere le partite giocate in una data specifica, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/results?date=11042021
-per vedere le partite giocate in un campionato, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/results?league_id=20010
-per vedere le partite giocate in una nazione, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&country_id=5
-per vedere le partite giocate da una squadra in casa, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&home_team_id=159
-per vedere le partite giocate da una squadra fuori, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&away_team_id=159
-per vedere le partite giocate da una squadra, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&team_id=159
+RESULTS
 
-per vedere tutti i goal di un campionato, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/goals?campaign_id=2020
-per vedere i goal di una partita, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/goals?match_id=21041101550159
-per vedere i goal delle partite di una nazione, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/goals?campaign_id=2020&country_id=5
-per vedere i goal delle partite di un campionato, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/goals?campaign_id=2020&league_id=20010
+to get all the results of a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020
+to get the result of a match - http://127.0.0.1:5000/api/v1/resources/results?match_id=21041101550159
+to get the results of all the matches played on a specific day (ddmmyyyy) - http://127.0.0.1:5000/api/v1/resources/results?date=11042021
+to get the results of all the matches of a league - http://127.0.0.1:5000/api/v1/resources/results?league_id=20010
+to get the results of all the matches played in a specific country - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&country_id=5
+to get the results of the matches played at home by a team, in a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&home_team_id=159
+to get the results of the matches played away by a team, in a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&away_team_id=159
+to get the results of the matches played by a team, in a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&team_id=159
+
+GOALS
+
+to get all the goals scored during a campaign - http://127.0.0.1:5000/api/v1/resources/goals?campaign_id=2020
+to get the goals scored during a specific match - http://127.0.0.1:5000/api/v1/resources/goals?match_id=21041101550159
+to get the goals scored in a specific country's matches, for a specific campaign - http://127.0.0.1:5000/api/v1/resources/goals?campaign_id=2020&country_id=5
+to get the goals scored in a specific league's matches, for a specific campaign - http://127.0.0.1:5000/api/v1/resources/goals?campaign_id=2020&league_id=20010
 
 
 
@@ -58,7 +62,7 @@ league_name: name of the league
 league_id: id of the league 
 country: name of the country
 country_id: id of the country
-campaign: if the league is played throughout a whole solar year (e.g. in 2021), then the field is the year; if the league is played in two different years (e.g. 2021/2022), then the field is the first year
+campaign_id: if the league is played throughout a whole solar year (e.g. in 2021), the value of the field is the year; if the league is played in two different years (e.g. 2021/2022), the value of the field is the first year
 campaign_start: day of the first match of the league
 campaign_end: day of the last match of the league
 active: campaign is already ended (value = 0) or not (1)
@@ -292,7 +296,7 @@ conceded_2: matches which the team conceded 2 goals in
 conceded_3: matches which the team conceded 3 goals in
 conceded_4: matches which the team conceded 4 goals in
 team_id: id of the team
-campaign_id: id of the campaign
+campaign_id: if the league is played throughout a whole solar year (e.g. in 2021), the value of the field is the year; if the league is played in two different years (e.g. 2021/2022), the value of the field is the first year
 league_id: id of the league
 league_name: name of the league
 country: team's country
