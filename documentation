@@ -26,21 +26,22 @@ to get the stats of all the teams of a specific country (e.g. 1), for a specific
 
 RESULTS
 
-to get all the results of a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020
-to get the result of a match - http://127.0.0.1:5000/api/v1/resources/results?match_id=21041101550159
-to get the results of all the matches played on a specific day (ddmmyyyy) - http://127.0.0.1:5000/api/v1/resources/results?date=11042021
-to get the results of all the matches of a league - http://127.0.0.1:5000/api/v1/resources/results?league_id=20001
-to get the results of all the matches played in a specific country - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&country_id=1
-to get the results of the matches played at home by a team, in a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&home_team_id=11
-to get the results of the matches played away by a team, in a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&away_team_id=11
-to get the results of the matches played by a team, in a specific campaign - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&team_id=11
+to get all the results of a specific campaign (e.g. 2020) - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020
+to get the result of a match (e.g. 21022000110007) - http://127.0.0.1:5000/api/v1/resources/results?match_id=21022000110007
+to get the results of all the matches played on a specific day (ddmmyyyy) - http://127.0.0.1:5000/api/v1/resources/results?date=10042021
+to get the results of all the matches of a league (e.g. 20001) - http://127.0.0.1:5000/api/v1/resources/results?league_id=20001
+to get the results of all the matches played in a specific country (e.g. 1) - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&country_id=1
+to get the results of the matches played at home by a team (e.g. 11), in a specific campaign (e.g. 2020) - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&home_team_id=11
+to get the results of the matches played away by a team (e.g. 11), in a specific campaign (e.g. 2020) - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&away_team_id=11
+to get the results of the matches played by a team (e.g. 11), in a specific campaign (e.g. 2020) - http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&team_id=11
 
 GOALS
 
-to get all the goals scored during a campaign - http://127.0.0.1:5000/api/v1/resources/goals?campaign_id=2020
-to get the goals scored during a specific match - http://127.0.0.1:5000/api/v1/resources/goals?match_id=21041101550159
-to get the goals scored in a specific country's matches, for a specific campaign - http://127.0.0.1:5000/api/v1/resources/goals?campaign_id=2020&country_id=5
-to get the goals scored in a specific league's matches, for a specific campaign - http://127.0.0.1:5000/api/v1/resources/goals?campaign_id=2020&league_id=20010
+to get all the goals scored during a campaign (e.g. 2020) - http://127.0.0.1:5000/api/v1/resources/goals?campaign_id=2020
+to get the goals scored during a specific match (e.g. 21022000110007) - http://127.0.0.1:5000/api/v1/resources/goals?match_id=21022000110007
+to get the goals scored on a specific day (ddmmyyyy) - http://127.0.0.1:5000/api/v1/resources/goals?date=10042021
+to get the goals scored in a specific country's (e.g. 1) matches, for a specific campaign (e.g. 2020) - http://127.0.0.1:5000/api/v1/resources/goals?campaign_id=2020&country_id=1
+to get the goals scored in a specific league's (e.g. 20001) matches, for a specific campaign (e.g. 2020) - http://127.0.0.1:5000/api/v1/resources/goals?campaign_id=2020&league_id=20001
 
 
 
