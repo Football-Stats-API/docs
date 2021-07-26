@@ -10,16 +10,20 @@ LEAGUES
 to retrieve all the leagues - http://127.0.0.1:5000/api/v1/resources/leagues/all
 to retrieve a country's leagues - http://127.0.0.1:5000/api/v1/resources/leagues?country_id=5
 
+TEAMS
+
+to retrieve all the teams - http://127.0.0.1:5000/api/v1/resources/teams/all
+to retrieve all the teams of a country - http://127.0.0.1:5000/api/v1/resources/teams?team_country_id=5
+to retrieve all the teams of a league - http://127.0.0.1:5000/api/v1/resources/teams?current_league_id=20010
+to retrieve one specific team - l'indirizzo http://127.0.0.1:5000/api/v1/resources/teams?team_id=159
+
 STATS
 
 to retrieve a campaign's stats - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020
-to retrieve a team's stats for a specific campaign: http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020&team_id=159
-per vedere le stats delle squadre di un campionato, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020&league_id=20010
-per vedere le stats delle squadre di una nazione, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020&country_id=5
-per vedere tutte le squadre, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/teams/all
-per vedere le squadre di una nazione, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/teams?team_country_id=5
-per vedere le squadre di un campionato, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/teams?current_league_id=20010
-per vedere i dati di una squadra, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/teams?team_id=159
+to retrieve the stats of a team, for a specific campaign - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020&team_id=159
+to retrieve the stats of all the teams of a specific league - http://127.0.0.1:5000/api/v1/resources/stats?league_id=20010
+to retrieve the stats of all the teams of a specific country, for a specific campaign - http://127.0.0.1:5000/api/v1/resources/stats?campaign_id=2020&country_id=5
+
 per vedere tutti i risultati di un campionato, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020
 per vedere il risultato di una partita, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/results?match_id=21041101550159
 per vedere le partite giocate in una data specifica, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/results?date=11042021
@@ -28,6 +32,7 @@ per vedere le partite giocate in una nazione, scrivere l'indirizzo http://127.0.
 per vedere le partite giocate da una squadra in casa, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&home_team_id=159
 per vedere le partite giocate da una squadra fuori, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&away_team_id=159
 per vedere le partite giocate da una squadra, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/results?campaign_id=2020&team_id=159
+
 per vedere tutti i goal di un campionato, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/goals?campaign_id=2020
 per vedere i goal di una partita, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/goals?match_id=21041101550159
 per vedere i goal delle partite di una nazione, scrivere l'indirizzo http://127.0.0.1:5000/api/v1/resources/goals?campaign_id=2020&country_id=5
